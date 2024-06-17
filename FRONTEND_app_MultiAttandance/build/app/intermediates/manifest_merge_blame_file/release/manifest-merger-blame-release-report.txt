@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.multiattandance"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:2:5-66
+11-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:3:5-64
+12-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:3:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:4:5-70
+13-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:4:22-68
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\techn\.gradle\caches\transforms-3\e255c6ce9910a673f2619b479a7d74a8\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+14-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\techn\.gradle\caches\transforms-3\e255c6ce9910a673f2619b479a7d74a8\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+15
+16    <permission
+16-->[androidx.core:core:1.10.1] C:\Users\techn\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.multiattandance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.10.1] C:\Users\techn\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.10.1] C:\Users\techn\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.multiattandance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.10.1] C:\Users\techn\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.10.1] C:\Users\techn\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+23        android:name="android.app.Application"
+23-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:7:9-42
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.10.1] C:\Users\techn\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:8:9-43
+26        android:label="multiattandance" >
+26-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:6:9-40
+27        <activity
+27-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:9:9-29:20
+28            android:name="com.example.multiattandance.MainActivity"
+28-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:10:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:14:13-163
+30            android:exported="true"
+30-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:11:13-36
+31            android:hardwareAccelerated="true"
+31-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:15:13-47
+32            android:launchMode="singleTop"
+32-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:12:13-43
+33            android:theme="@style/LaunchTheme"
+33-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:13:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:16:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:21:13-24:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:22:15-70
+44                android:resource="@style/NormalTheme" />
+44-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:23:15-52
+45
+46            <intent-filter>
+46-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:25:13-28:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:26:17-68
+47-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:26:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:27:17-76
+49-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:27:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:32:9-34:33
+57            android:name="flutterEmbedding"
+57-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:33:13-44
+58            android:value="2" />
+58-->C:\Users\techn\MultiAttandance\android\app\src\main\AndroidManifest.xml:34:13-30
+59
+60        <activity
+60-->[:url_launcher_android] C:\Users\techn\MultiAttandance\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+61            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+61-->[:url_launcher_android] C:\Users\techn\MultiAttandance\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+62            android:exported="false"
+62-->[:url_launcher_android] C:\Users\techn\MultiAttandance\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+63            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+63-->[:url_launcher_android] C:\Users\techn\MultiAttandance\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+64
+65        <uses-library
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\techn\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+66            android:name="androidx.window.extensions"
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\techn\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\techn\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+68        <uses-library
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\techn\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+69            android:name="androidx.window.sidecar"
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\techn\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\techn\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+71    </application>
+72
+73</manifest>
